@@ -1,0 +1,35 @@
+# =============================
+# UI
+# =============================
+streamlit>=1.30.0
+
+# =============================
+# LangChain Core & Integrations
+# =============================
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.1.0
+
+# =============================
+# Hugging Face & Embeddings
+# =============================
+huggingface-hub>=0.23.0
+sentence-transformers>=2.6.0
+
+# =============================
+# Vector Store
+# =============================
+faiss-cpu>=1.7.4
+
+# =============================
+# Document Loaders
+# =============================
+pypdf>=4.0.0
+docx2txt>=0.8
+python-docx>=1.1.0
+
+# =============================
+# Environment & Utilities
+# =============================
+python-dotenv>=1.0.0
