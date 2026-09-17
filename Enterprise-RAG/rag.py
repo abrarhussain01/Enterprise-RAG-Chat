@@ -138,6 +138,11 @@ def build_messages(inputs: dict):
             content=f"Context:\n{inputs['context']}\n\nQuestion:\n{inputs['question']}"
         )
     )
+    chat_history.append(
+        HumanMessage(
+            content=f"Context:\n{inputs['context']}\n\nQuestion:\n{inputs['question']}"
+        )
+    )
     return messages
 
 def save_ai_message(response):
